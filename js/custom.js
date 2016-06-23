@@ -70,13 +70,13 @@ jQuery(function( $ ){
 /* =================================
 ===  VIDEO BACKGROUND           ====
 =================================== */
-if (matchMedia('(min-width: 840px)').matches) {
+if (matchMedia('(min-width: 740px)').matches) {
    
    $(document).ready(function() {
     var videobackground = new $.backgroundVideo($('body'), {
       "align": "centerXY",
-      "width": 1280,
-      "height": 720,
+      "width": 1480,
+      "height": 833,
       "path": "../../../files/video/",
       "filename": "video",
       "types": ["mp4","ogg","webm","mp3"]
