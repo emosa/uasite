@@ -488,7 +488,7 @@ object {
 }
 
 .video-container {
-    width: 90%;
+    width: 100%;
     background: transparent !important;
     margin: auto;
     margin-bottom: 50px;
