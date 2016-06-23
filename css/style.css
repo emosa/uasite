@@ -479,6 +479,7 @@ header .intro-section .buttons {
 
 video {
     height: auto;
+	width:100%;
 }
 
 iframe,
@@ -488,7 +489,7 @@ object {
 }
 
 .video-container {
-    width: 98%;
+    width: 90%;
     background: transparent !important;
     margin: auto;
     margin-bottom: 50px;
