@@ -70,7 +70,7 @@ jQuery(function( $ ){
 /* =================================
 ===  VIDEO BACKGROUND           ====
 =================================== */
-if (matchMedia('(min-width: 640px)').matches) {
+if (matchMedia('(min-width: 840px)').matches) {
    
    $(document).ready(function() {
     var videobackground = new $.backgroundVideo($('body'), {
