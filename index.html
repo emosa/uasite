@@ -65,7 +65,22 @@
 <style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style><script>var tvt = tvt || {}; tvt.captureVariables = function (a){for(var b=new Date,c={},d=Object.keys(a||{}),e=0,f;f=d[e];e++)if(a.hasOwnProperty(f)&&
 "undefined"!=typeof a[f])try{var g=[];c[f]=JSON.stringify(a[f],function(a,b){try{if("function"!==typeof b){if("object"===typeof b&&null!==b){if(b instanceof HTMLElement||b instanceof Node||-1!=g.indexOf(b))return;g.push(b)}return b}}catch(c){}})}catch(l){}a=document.createEvent("CustomEvent");a.initCustomEvent("TvtRetrievedVariablesEvent",!0,!0,{variables:c,date:b});window.dispatchEvent(a)};window.setTimeout(function() {tvt.captureVariables({'dataLayer': window['dataLayer']})}, 2000);</script></head>
 
-<body><video id="video_background" preload="auto" autoplay loop style="position: fixed; top: -80px; left: 0px; bottom: 0px; right: 0px; z-index: -100; width: 2083px; height: 1171px;"><source src="video/UnderArmour.mp4" type="video/mp4"></source><source src="video/UnderArmour.ogg" type="video/ogg"></source><source src="video/UnderArmour.mp3" type="video/mp3"></source><source src="video/UnderArmour.webm" type="video/webm">bgvideo</source></video>
+<body>
+<video id="video_background" preload="auto" muted autoplay loop style="position: fixed; top: -80px; left: 0px; bottom: 0px; right: 0px; z-index: -100; width: 1588px; height: 881px;"><source src="video/video.mv4" type="video/mp4"></source>
+<source src="video/video.ogv" type="video/ogg"></source>
+<source src="video/video.mp3" type="video/mp3"></source>
+<source src="video/video.webm" type="video/webm">bgvideo</source>
+<source src="video/video.mp4" />
+
+
+<object type="application/x-shockwave-flash" data="video/flashfox.swf" width="640" height="360" style="position:relative;">
+<param name="movie" value="video/flashfox.swf" />
+<param name="allowFullScreen" value="true" />
+<param name="flashVars" value="autoplay=true&controls=true&fullScreenEnabled=true&posterOnEnd=true&loop=false&poster=video/video.jpg&src=video.m4v" />
+ <embed src="video/flashfox.swf" width="640" height="360" style="position:relative;"  flashVars="autoplay=true&controls=true&fullScreenEnabled=true&posterOnEnd=true&loop=false&poster=video/video.jpg&src=video.m4v"	allowFullScreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_en" />
+<img alt="video" src="video/video.jpg" style="position:absolute;left:0;" width="100%" title="Video playback is not supported by your browser" />
+</object>
+</video>
 <!-- =========================
      PRE LOADER       
 ============================== -->
@@ -190,7 +205,7 @@
 
 		<div class="colored-line"></div>
         </div>
-        </div>
+    </div>
 	<!-- /END SECTION HEADER -->
 	
     <section class="all-brief" id="perdna">

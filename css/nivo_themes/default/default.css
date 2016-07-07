@@ -77,7 +77,7 @@
        (min-resolution: 1.3dppx) {
 
 	.nivo-lightbox-theme-default .nivo-lightbox-content.nivo-lightbox-loading { 
-		background-image: url(loading@2x.gif); 
+		background-image: url(loading.gif); 
 		-webkit-background-size: 32px 32px; 
 		        background-size: 32px 32px;
 	}
