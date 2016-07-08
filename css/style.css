@@ -289,7 +289,7 @@ header .full-screen {
   border: none;
   padding: 0 !important;
   margin-bottom: 0 !important;
-  -webkit-backface-visibility: hidden;
+  -webkit-backface-visibility:visible !important;
   -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
           box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
 }
@@ -334,6 +334,7 @@ header .intro-section {
 
 header .intro-section .standard-button {
     margin: 0;
+	
 }
 
 header .ua-image {
@@ -363,6 +364,8 @@ header .intro-section h2 {
 
 header .intro-section .buttons {
     margin-top: 35px;
+	
+	
 }
 
 /*---------------------------------------
@@ -701,3 +704,4 @@ footer .copyright {
 .ftech{
 	padding-top: 80px;
 	}
+	
