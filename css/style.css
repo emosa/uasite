@@ -361,6 +361,8 @@ header .intro-section h2 {
     color: #ffffff;
 	font-weight:bold;
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	letter-spacing: 1px;
+	
 }
 
 header .intro-section .buttons {
@@ -370,27 +372,26 @@ header .intro-section .buttons {
 }
 
 * .font-style-me {
-	font-family: Anton;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
 	color: #FC9D14;
 	font-size: 6em;
 	text-transform: uppercase;
 	font-variant: small-caps;
-	letter-spacing: 10px;
+	letter-spacing: 17px;
 	text-align: left;
+	
 }
 
-* .font-style3 {
-	font-family: Squada One;
-	color: #0196A7;
-	font-size: 32;
-	padding: 0;
-	letter-spacing: 6px;
-}
 
 * .cooldry{
 	text-align:right;
-	
+	font-size: 6em; 
+	font-weight:900;
 }
+
+.mystl{
+	font-size: 1em;
+	}
 /*---------------------------------------
    SECTION:  FEATURES                 
 -----------------------------------------*/
@@ -737,7 +738,7 @@ footer .copyright {
 	border-radius: 30px;
 	padding-top: 10px;
     padding-right: 35px;
-    padding-bottom: 90px;
+    padding-bottom: 70px;
     padding-left: 35px;
 	
 	}

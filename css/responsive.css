@@ -4,9 +4,27 @@ RESPONSIVE FIXES
 =========================================
 -----------------------------------------*/
 
-
+@media (min-width: 992px){
+.container {
+    width: 1370px;
+}
+}
  @media (max-width: 991px) {
-     
+     header .intro-section .intro, .font-style-me, .cooldry {
+	 font-size: 2.5em;
+    margin-bottom: 5px;
+    line-height: 1;
+}
+.shopwnow .shopwnow-container {
+    padding-bottom: 20px;
+    width: 50%;
+	margin-left: 155px;
+}
+
+.services .single-service {
+    padding-bottom: 60px;
+	width:100%;
+}
      .pull-right, 
      .pull-left {
          float: none !important;
@@ -48,7 +66,15 @@ RESPONSIVE FIXES
      .intro-section {
          margin-bottom: 50px;
          margin-top: 0;
+		 font-size:20px;
      }
+	 
+	 .standard-button,.secondary-button {
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		min-width: 100%;
+		padding: 11px 20px 11px 20px;
+	}
  }
  
  
@@ -166,10 +192,22 @@ RESPONSIVE FIXES
 
 	.feature-list-1 {
 		display: none;
+		align-content: center;
+		text-align:center;
 	}
+.feature, .icon-container, .icon_genius, .fetaure-details{
+	
+	align-content: right;
+	text-align: right;
+	font-size: 1.3em;
+}
 
+.mystl{
+	font-size: 1.3em;
+	}
+	
 	body {
-		font-size: 13px;
+		font-size: 16px;
 		line-height: 21px;
 	}
 
@@ -198,7 +236,49 @@ RESPONSIVE FIXES
 
 	.standard-button,.secondary-button {
 		font-size: 13px;
-		min-width: 100px;
+		min-width: 100%;
 		padding: 11px 20px 11px 20px;
 	}
+	
+	.shopwnow .shopwnow-container {
+    padding-bottom: 20px;
+    width: 50%;
+    margin-left: 80px;
+}
+
+.section-description{
+	font-size:18px;
+	}
+.services p {
+	
+	font-size:18px;
+}
+.gearlines {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.all-brief .ua-image img {
+    width: 50%;
+}
+.all-brief {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background: #222222;
+}
+.services {
+    padding-top: 5px;
+    padding-bottom: 60px;
+    background: #222222;
+}
+
+.features {
+    padding-top: 80px;
+    padding-bottom: 5px;
+    background: #232323;
+}
+.headedcold p{
+	font-size: 1.2em;
+	}
+
 }
