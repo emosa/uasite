@@ -607,8 +607,8 @@ object {
 -----------------------------------------*/
 
 .services {
-    padding-top: 80px;
-    padding-bottom: 60px;
+   	padding-top: 10%;
+    padding-bottom: 15%;
     background: #222222;
 }
 
@@ -722,12 +722,13 @@ footer .copyright {
 }
 
 .gearlines{
-	padding-top:20%;
-	padding-bottom: 20%;
+	padding-top:15%;
+	padding-bottom: 15%;
 	}
 	
 .ftech{
-	padding-top: 80px;
+	padding-top: 25%;
+    padding-bottom: 15%;
 	}
 	
 .headbck{
