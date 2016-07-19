@@ -467,6 +467,7 @@ header .intro-section .buttons {
     padding-top:10px;
     padding-bottom: 60px;
     background: #222222;
+	width: 100%;
 }
 
 .all-brief h2 {
