@@ -187,6 +187,7 @@ h5 {
 .standard-button:hover,
 .standard-button2:hover {
     border: none;
+	background-color:#FC9D14;
 }
 
 .standard-button i,
